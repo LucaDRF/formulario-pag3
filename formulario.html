@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css"> 
+    <title> Formulário</title>
+</head>
+<body>
+    <div id="titulo">
+        Informe seus dados para <br> contato:
+    </div>
+    <div class="formulario"><form>
+        <div name="nome">
+            <div class="nome">
+                <label for="nome">Nome: </label> <br>
+                <input class="nome" type="text" name="nome">
+            <div class="direita">
+                <label for="sobrenome">Sobrenome: </label> <br>
+                <input class="nome" type="text" name="sobrenome"> 
+            </div>
+        </div>
+        <div name="nascimentoTelefone">
+            <div class="nome">
+                <label for="data">Data de Nascimento:</label> <br>
+                <input id="data" type="date" name="data">
+            </div>
+            <div id="telefone">
+                <label for="telefone">Telefone: </label>
+                <input class="nome" type="number" name="telefone">
+            </div>
+        </div>
+        <div id="sexo" name="sexo">
+            <label class="nome" for="sexo">Sexo: </label>
+            <select id="sexo1" name="sexo">
+                <option value="padrao">Selecione</option>
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
+                <option value="other">Outro</option>
+            </select>
+        </div>
+        <div id="telefone" name="cpf">
+            <label for="cpf">Cpf: </label>
+            <input class="nome" type="text" name="cpf">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email">
+        </div>
+        <table border="0" style="margin-left: -6px;margin-top: 10px;">
+            <tr>
+                <td>
+                    <a href="http://google.com.br"><button class="botao">Voltar</button></a>
+                </td>
+                <td>
+                    <input class="botao" type="submit" value="Enviar dados">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
